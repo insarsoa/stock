@@ -1,7 +1,11 @@
-name: test
-on:
-push:
+name: Hello World
+
+on: [push]
 
 jobs:
-  steps:
-    run: echo Hello, World
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, world!"
+
