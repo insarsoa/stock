@@ -2,6 +2,6 @@ package jpmorgan.stock;
 
 public enum TradeMethod {
 
-	BUY, SELL
+	BUY, SELL, BOTH
 	
 }
